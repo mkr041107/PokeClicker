@@ -63,9 +63,70 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _635556544299235574_2991773832() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("635556544299235574-2991773832", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property cookie() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("cookie", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Great_Ball_Artwork_3019201630() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Great_Ball_Artwork-3019201630", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property il_1588xN_2703917927_5dpc_295111173() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("il_1588xN.2703917927_5dpc-295111173", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property pokemon_pokeball_toy_7cm_3996445687() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("pokemon-pokeball-toy-7cm-3996445687", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property purepng_com_pokeballpokeballdevicepokemon_ballpokemon_capture_ball_17015278258769okdi_3871205728() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769"& _ 
+                        "okdi-3871205728", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property purepng1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("purepng1", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

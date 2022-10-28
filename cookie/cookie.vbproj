@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CookieClicker.Designer.vb">
+      <DependentUpon>CookieClicker.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CookieClicker.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CookieClicker.resx">
+      <DependentUpon>CookieClicker.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +130,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\cookie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokemon-pokeball-toy-7cm-3996445687.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769okdi-3871205728.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purepng.com-pokeballpokeballdevicepokemon-ballpokemon-capture-ball-17015278258769okdi-38712057281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\il_1588xN.2703917927_5dpc-295111173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Great_Ball_Artwork-3019201630.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\635556544299235574-2991773832.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
