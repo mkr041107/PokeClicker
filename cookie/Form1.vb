@@ -3,7 +3,7 @@
     Dim clicks As Integer = 0
 
     Private Sub Cookie_MouseDown(sender As Object, e As MouseEventArgs) Handles Cookie.MouseDown
-        clicks += 1.2
+        clicks += 1
         lblClicks.Text = clicks
         If (clicks = 1) Then
             tmrMain.Start()

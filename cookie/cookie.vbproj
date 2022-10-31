@@ -90,6 +90,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -148,6 +149,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\635556544299235574-2991773832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\635556544299235574-2991773832 copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master_ball_by_falco4077-d75ae5m-3429987528.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2013-10-18_171438_6561496-2841195642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120px-Ancient_Great_Ball_Glamour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120px-Ancient_Ultra_Ball_Glamour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\120px-Beast_Ball_Glamour.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

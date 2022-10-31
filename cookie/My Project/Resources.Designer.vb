@@ -63,9 +63,59 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property _120px_Ancient_Great_Ball_Glamour() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_120px_Ancient_Great_Ball_Glamour", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _120px_Ancient_Ultra_Ball_Glamour() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_120px_Ancient_Ultra_Ball_Glamour", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _120px_Beast_Ball_Glamour() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_120px_Beast_Ball_Glamour", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _2013_10_18_171438_6561496_2841195642() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("_2013_10_18_171438_6561496_2841195642", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property _635556544299235574_2991773832() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("635556544299235574-2991773832", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property _635556544299235574_2991773832_copy() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("635556544299235574-2991773832 copy", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -96,6 +146,16 @@ Namespace My.Resources
         Friend ReadOnly Property il_1588xN_2703917927_5dpc_295111173() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("il_1588xN.2703917927_5dpc-295111173", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property master_ball_by_falco4077_d75ae5m_3429987528() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("master_ball_by_falco4077-d75ae5m-3429987528", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
