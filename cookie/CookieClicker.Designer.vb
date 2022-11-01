@@ -354,7 +354,7 @@ Partial Class CookieClicker
         'lblPPS
         '
         Me.lblPPS.AutoSize = True
-        Me.lblPPS.Location = New System.Drawing.Point(119, 108)
+        Me.lblPPS.Location = New System.Drawing.Point(119, 120)
         Me.lblPPS.Name = "lblPPS"
         Me.lblPPS.Size = New System.Drawing.Size(31, 13)
         Me.lblPPS.TabIndex = 39
