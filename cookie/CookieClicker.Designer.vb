@@ -37,10 +37,10 @@ Partial Class CookieClicker
         Me.lblUBallName = New System.Windows.Forms.Label()
         Me.lblGBallPrice = New System.Windows.Forms.Label()
         Me.pbAFarm = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.pbGBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbUBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbMBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbAFarmUpgrade = New System.Windows.Forms.PictureBox()
         Me.pbUBall = New System.Windows.Forms.PictureBox()
         Me.pbGBall = New System.Windows.Forms.PictureBox()
         Me.pbMBall = New System.Windows.Forms.PictureBox()
@@ -56,10 +56,10 @@ Partial Class CookieClicker
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblPPS = New System.Windows.Forms.Label()
         CType(Me.pbAFarm, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbGBallUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbUBallUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbMBallUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.pbAFarmUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbUBall, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbGBall, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbMBall, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -78,7 +78,7 @@ Partial Class CookieClicker
         'lblGBallName
         '
         Me.lblGBallName.AutoSize = True
-        Me.lblGBallName.Location = New System.Drawing.Point(676, 185)
+        Me.lblGBallName.Location = New System.Drawing.Point(664, 189)
         Me.lblGBallName.Name = "lblGBallName"
         Me.lblGBallName.Size = New System.Drawing.Size(61, 13)
         Me.lblGBallName.TabIndex = 19
@@ -89,63 +89,60 @@ Partial Class CookieClicker
         Me.lblGBallQuantity.AutoSize = True
         Me.lblGBallQuantity.Location = New System.Drawing.Point(676, 202)
         Me.lblGBallQuantity.Name = "lblGBallQuantity"
-        Me.lblGBallQuantity.Size = New System.Drawing.Size(39, 13)
+        Me.lblGBallQuantity.Size = New System.Drawing.Size(0, 13)
         Me.lblGBallQuantity.TabIndex = 20
-        Me.lblGBallQuantity.Text = "Label2"
+        Me.lblGBallQuantity.TextAlign = System.Drawing.ContentAlignment.TopRight
         '
         'lblUBallPrice
         '
         Me.lblUBallPrice.AutoSize = True
         Me.lblUBallPrice.Location = New System.Drawing.Point(676, 268)
         Me.lblUBallPrice.Name = "lblUBallPrice"
-        Me.lblUBallPrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblUBallPrice.Size = New System.Drawing.Size(52, 13)
         Me.lblUBallPrice.TabIndex = 22
-        Me.lblUBallPrice.Text = "Label3"
+        Me.lblUBallPrice.Text = "Cost: 100"
         '
         'lblUBallQuantity
         '
         Me.lblUBallQuantity.AutoSize = True
         Me.lblUBallQuantity.Location = New System.Drawing.Point(676, 251)
         Me.lblUBallQuantity.Name = "lblUBallQuantity"
-        Me.lblUBallQuantity.Size = New System.Drawing.Size(39, 13)
+        Me.lblUBallQuantity.Size = New System.Drawing.Size(0, 13)
         Me.lblUBallQuantity.TabIndex = 21
-        Me.lblUBallQuantity.Text = "Label4"
         '
         'lblAFarmPrice
         '
         Me.lblAFarmPrice.AutoSize = True
         Me.lblAFarmPrice.Location = New System.Drawing.Point(676, 336)
         Me.lblAFarmPrice.Name = "lblAFarmPrice"
-        Me.lblAFarmPrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblAFarmPrice.Size = New System.Drawing.Size(58, 13)
         Me.lblAFarmPrice.TabIndex = 24
-        Me.lblAFarmPrice.Text = "Label5"
+        Me.lblAFarmPrice.Text = "Cost: 1000"
         '
         'lblAFarmQuantity
         '
         Me.lblAFarmQuantity.AutoSize = True
         Me.lblAFarmQuantity.Location = New System.Drawing.Point(676, 319)
         Me.lblAFarmQuantity.Name = "lblAFarmQuantity"
-        Me.lblAFarmQuantity.Size = New System.Drawing.Size(39, 13)
+        Me.lblAFarmQuantity.Size = New System.Drawing.Size(0, 13)
         Me.lblAFarmQuantity.TabIndex = 23
-        Me.lblAFarmQuantity.Text = "Label6"
         '
         'lblMBallPrice
         '
         Me.lblMBallPrice.AutoSize = True
         Me.lblMBallPrice.Location = New System.Drawing.Point(676, 400)
         Me.lblMBallPrice.Name = "lblMBallPrice"
-        Me.lblMBallPrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblMBallPrice.Size = New System.Drawing.Size(64, 13)
         Me.lblMBallPrice.TabIndex = 26
-        Me.lblMBallPrice.Text = "Label7"
+        Me.lblMBallPrice.Text = "Cost: 12000"
         '
         'lblMBallQuantity
         '
         Me.lblMBallQuantity.AutoSize = True
         Me.lblMBallQuantity.Location = New System.Drawing.Point(676, 383)
         Me.lblMBallQuantity.Name = "lblMBallQuantity"
-        Me.lblMBallQuantity.Size = New System.Drawing.Size(39, 13)
+        Me.lblMBallQuantity.Size = New System.Drawing.Size(0, 13)
         Me.lblMBallQuantity.TabIndex = 25
-        Me.lblMBallQuantity.Text = "Label8"
         '
         'lblAFarmName
         '
@@ -177,11 +174,11 @@ Partial Class CookieClicker
         'lblGBallPrice
         '
         Me.lblGBallPrice.AutoSize = True
-        Me.lblGBallPrice.Location = New System.Drawing.Point(673, 217)
+        Me.lblGBallPrice.Location = New System.Drawing.Point(676, 220)
         Me.lblGBallPrice.Name = "lblGBallPrice"
-        Me.lblGBallPrice.Size = New System.Drawing.Size(45, 13)
+        Me.lblGBallPrice.Size = New System.Drawing.Size(46, 13)
         Me.lblGBallPrice.TabIndex = 30
-        Me.lblGBallPrice.Text = "Label11"
+        Me.lblGBallPrice.Text = "Cost: 15"
         '
         'pbAFarm
         '
@@ -193,45 +190,45 @@ Partial Class CookieClicker
         Me.pbAFarm.TabIndex = 18
         Me.pbAFarm.TabStop = False
         '
-        'PictureBox5
+        'pbGBallUpgrade
         '
-        Me.PictureBox5.Image = Global.cookie.My.Resources.Resources._120px_Ancient_Great_Ball_Glamour
-        Me.PictureBox5.Location = New System.Drawing.Point(367, 0)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(159, 113)
-        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox5.TabIndex = 17
-        Me.PictureBox5.TabStop = False
+        Me.pbGBallUpgrade.Image = Global.cookie.My.Resources.Resources._120px_Ancient_Great_Ball_Glamour
+        Me.pbGBallUpgrade.Location = New System.Drawing.Point(367, 0)
+        Me.pbGBallUpgrade.Name = "pbGBallUpgrade"
+        Me.pbGBallUpgrade.Size = New System.Drawing.Size(159, 113)
+        Me.pbGBallUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbGBallUpgrade.TabIndex = 17
+        Me.pbGBallUpgrade.TabStop = False
         '
-        'PictureBox4
+        'pbUBallUpgrade
         '
-        Me.PictureBox4.Image = Global.cookie.My.Resources.Resources._120px_Ancient_Ultra_Ball_Glamour
-        Me.PictureBox4.Location = New System.Drawing.Point(532, 0)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(151, 113)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox4.TabIndex = 16
-        Me.PictureBox4.TabStop = False
+        Me.pbUBallUpgrade.Image = Global.cookie.My.Resources.Resources._120px_Ancient_Ultra_Ball_Glamour
+        Me.pbUBallUpgrade.Location = New System.Drawing.Point(532, 0)
+        Me.pbUBallUpgrade.Name = "pbUBallUpgrade"
+        Me.pbUBallUpgrade.Size = New System.Drawing.Size(151, 113)
+        Me.pbUBallUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbUBallUpgrade.TabIndex = 16
+        Me.pbUBallUpgrade.TabStop = False
         '
-        'PictureBox7
+        'pbMBallUpgrade
         '
-        Me.PictureBox7.Image = Global.cookie.My.Resources.Resources._120px_Beast_Ball_Glamour
-        Me.PictureBox7.Location = New System.Drawing.Point(367, 240)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(159, 140)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox7.TabIndex = 15
-        Me.PictureBox7.TabStop = False
+        Me.pbMBallUpgrade.Image = Global.cookie.My.Resources.Resources._120px_Beast_Ball_Glamour
+        Me.pbMBallUpgrade.Location = New System.Drawing.Point(367, 240)
+        Me.pbMBallUpgrade.Name = "pbMBallUpgrade"
+        Me.pbMBallUpgrade.Size = New System.Drawing.Size(159, 140)
+        Me.pbMBallUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbMBallUpgrade.TabIndex = 15
+        Me.pbMBallUpgrade.TabStop = False
         '
-        'PictureBox6
+        'pbAFarmUpgrade
         '
-        Me.PictureBox6.Image = Global.cookie.My.Resources.Resources._2013_10_18_171438_6561496_2841195642
-        Me.PictureBox6.Location = New System.Drawing.Point(367, 120)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(159, 113)
-        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox6.TabIndex = 14
-        Me.PictureBox6.TabStop = False
+        Me.pbAFarmUpgrade.Image = Global.cookie.My.Resources.Resources._2013_10_18_171438_6561496_2841195642
+        Me.pbAFarmUpgrade.Location = New System.Drawing.Point(367, 120)
+        Me.pbAFarmUpgrade.Name = "pbAFarmUpgrade"
+        Me.pbAFarmUpgrade.Size = New System.Drawing.Size(159, 113)
+        Me.pbAFarmUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbAFarmUpgrade.TabIndex = 14
+        Me.pbAFarmUpgrade.TabStop = False
         '
         'pbUBall
         '
@@ -315,36 +312,36 @@ Partial Class CookieClicker
         Me.lblGBallUpgradePrice.AutoSize = True
         Me.lblGBallUpgradePrice.Location = New System.Drawing.Point(381, 9)
         Me.lblGBallUpgradePrice.Name = "lblGBallUpgradePrice"
-        Me.lblGBallUpgradePrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblGBallUpgradePrice.Size = New System.Drawing.Size(49, 13)
         Me.lblGBallUpgradePrice.TabIndex = 35
-        Me.lblGBallUpgradePrice.Text = "Label5"
+        Me.lblGBallUpgradePrice.Text = "Cost:100"
         '
         'lblAFarmUpgradePrice
         '
         Me.lblAFarmUpgradePrice.AutoSize = True
         Me.lblAFarmUpgradePrice.Location = New System.Drawing.Point(372, 130)
         Me.lblAFarmUpgradePrice.Name = "lblAFarmUpgradePrice"
-        Me.lblAFarmUpgradePrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblAFarmUpgradePrice.Size = New System.Drawing.Size(61, 13)
         Me.lblAFarmUpgradePrice.TabIndex = 36
-        Me.lblAFarmUpgradePrice.Text = "Label6"
+        Me.lblAFarmUpgradePrice.Text = "Cost:11000"
         '
         'lblMBallUpgradePrice
         '
         Me.lblMBallUpgradePrice.AutoSize = True
         Me.lblMBallUpgradePrice.Location = New System.Drawing.Point(381, 251)
         Me.lblMBallUpgradePrice.Name = "lblMBallUpgradePrice"
-        Me.lblMBallUpgradePrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblMBallUpgradePrice.Size = New System.Drawing.Size(70, 13)
         Me.lblMBallUpgradePrice.TabIndex = 37
-        Me.lblMBallUpgradePrice.Text = "Label7"
+        Me.lblMBallUpgradePrice.Text = "Cost: 120000"
         '
         'lblUBallUpgradePrice
         '
         Me.lblUBallUpgradePrice.AutoSize = True
         Me.lblUBallUpgradePrice.Location = New System.Drawing.Point(541, 9)
         Me.lblUBallUpgradePrice.Name = "lblUBallUpgradePrice"
-        Me.lblUBallUpgradePrice.Size = New System.Drawing.Size(39, 13)
+        Me.lblUBallUpgradePrice.Size = New System.Drawing.Size(55, 13)
         Me.lblUBallUpgradePrice.TabIndex = 38
-        Me.lblUBallUpgradePrice.Text = "Label8"
+        Me.lblUBallUpgradePrice.Text = "Cost:1000"
         '
         'Timer1
         '
@@ -387,10 +384,10 @@ Partial Class CookieClicker
         Me.Controls.Add(Me.lblGBallQuantity)
         Me.Controls.Add(Me.lblGBallName)
         Me.Controls.Add(Me.pbAFarm)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox6)
+        Me.Controls.Add(Me.pbGBallUpgrade)
+        Me.Controls.Add(Me.pbUBallUpgrade)
+        Me.Controls.Add(Me.pbMBallUpgrade)
+        Me.Controls.Add(Me.pbAFarmUpgrade)
         Me.Controls.Add(Me.pbUBall)
         Me.Controls.Add(Me.pbGBall)
         Me.Controls.Add(Me.pbMBall)
@@ -399,10 +396,10 @@ Partial Class CookieClicker
         Me.Name = "CookieClicker"
         Me.Text = "label2"
         CType(Me.pbAFarm, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbGBallUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbUBallUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbMBallUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.pbAFarmUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbUBall, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbGBall, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbMBall, System.ComponentModel.ISupportInitialize).EndInit()
@@ -416,10 +413,10 @@ Partial Class CookieClicker
     Friend WithEvents pbMBall As PictureBox
     Friend WithEvents pbGBall As PictureBox
     Friend WithEvents pbUBall As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents pbAFarmUpgrade As PictureBox
+    Friend WithEvents pbMBallUpgrade As PictureBox
+    Friend WithEvents pbUBallUpgrade As PictureBox
+    Friend WithEvents pbGBallUpgrade As PictureBox
     Friend WithEvents pbAFarm As PictureBox
     Friend WithEvents lblGBallName As Label
     Friend WithEvents lblGBallQuantity As Label
