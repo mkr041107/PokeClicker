@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Choose.Designer.vb">
+      <DependentUpon>Choose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Choose.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="CookieClicker.Designer.vb">
       <DependentUpon>CookieClicker.vb</DependentUpon>
     </Compile>
@@ -104,6 +110,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Choose.resx">
+      <DependentUpon>Choose.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CookieClicker.resx">
       <DependentUpon>CookieClicker.vb</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +176,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\120px-Beast_Ball_Glamour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ancient_Poke_Ball_Glamour.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

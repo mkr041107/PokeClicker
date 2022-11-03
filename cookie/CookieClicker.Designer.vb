@@ -36,15 +36,6 @@ Partial Class CookieClicker
         Me.lblMBallName = New System.Windows.Forms.Label()
         Me.lblUBallName = New System.Windows.Forms.Label()
         Me.lblGBallPrice = New System.Windows.Forms.Label()
-        Me.pbAFarm = New System.Windows.Forms.PictureBox()
-        Me.pbGBallUpgrade = New System.Windows.Forms.PictureBox()
-        Me.pbUBallUpgrade = New System.Windows.Forms.PictureBox()
-        Me.pbMBallUpgrade = New System.Windows.Forms.PictureBox()
-        Me.pbAFarmUpgrade = New System.Windows.Forms.PictureBox()
-        Me.pbUBall = New System.Windows.Forms.PictureBox()
-        Me.pbGBall = New System.Windows.Forms.PictureBox()
-        Me.pbMBall = New System.Windows.Forms.PictureBox()
-        Me.Pokeball = New System.Windows.Forms.PictureBox()
         Me.lblGBallUpgradeName = New System.Windows.Forms.Label()
         Me.lblAFarmUpgradeName = New System.Windows.Forms.Label()
         Me.lblMBallUpgradeName = New System.Windows.Forms.Label()
@@ -55,6 +46,19 @@ Partial Class CookieClicker
         Me.lblUBallUpgradePrice = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblPPS = New System.Windows.Forms.Label()
+        Me.pbPokeballUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbAFarm = New System.Windows.Forms.PictureBox()
+        Me.pbGBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbUBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbMBallUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbAFarmUpgrade = New System.Windows.Forms.PictureBox()
+        Me.pbUBall = New System.Windows.Forms.PictureBox()
+        Me.pbGBall = New System.Windows.Forms.PictureBox()
+        Me.pbMBall = New System.Windows.Forms.PictureBox()
+        Me.Pokeball = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        CType(Me.pbPokeballUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbAFarm, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbGBallUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.pbUBallUpgrade, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,9 +75,9 @@ Partial Class CookieClicker
         Me.lblPokeBalls.AutoSize = True
         Me.lblPokeBalls.Location = New System.Drawing.Point(119, 77)
         Me.lblPokeBalls.Name = "lblPokeBalls"
-        Me.lblPokeBalls.Size = New System.Drawing.Size(60, 13)
+        Me.lblPokeBalls.Size = New System.Drawing.Size(57, 13)
         Me.lblPokeBalls.TabIndex = 3
-        Me.lblPokeBalls.Text = "Poke Balls:"
+        Me.lblPokeBalls.Text = "PokèBalls:"
         '
         'lblGBallName
         '
@@ -180,6 +184,103 @@ Partial Class CookieClicker
         Me.lblGBallPrice.TabIndex = 30
         Me.lblGBallPrice.Text = "Cost: 15"
         '
+        'lblGBallUpgradeName
+        '
+        Me.lblGBallUpgradeName.AutoSize = True
+        Me.lblGBallUpgradeName.Location = New System.Drawing.Point(371, 95)
+        Me.lblGBallUpgradeName.Name = "lblGBallUpgradeName"
+        Me.lblGBallUpgradeName.Size = New System.Drawing.Size(92, 13)
+        Me.lblGBallUpgradeName.TabIndex = 31
+        Me.lblGBallUpgradeName.Text = "Ancient Great Ball"
+        '
+        'lblAFarmUpgradeName
+        '
+        Me.lblAFarmUpgradeName.AutoSize = True
+        Me.lblAFarmUpgradeName.Location = New System.Drawing.Point(372, 217)
+        Me.lblAFarmUpgradeName.Name = "lblAFarmUpgradeName"
+        Me.lblAFarmUpgradeName.Size = New System.Drawing.Size(91, 13)
+        Me.lblAFarmUpgradeName.TabIndex = 32
+        Me.lblAFarmUpgradeName.Text = "Auto Apricot Farm"
+        '
+        'lblMBallUpgradeName
+        '
+        Me.lblMBallUpgradeName.AutoSize = True
+        Me.lblMBallUpgradeName.Location = New System.Drawing.Point(381, 358)
+        Me.lblMBallUpgradeName.Name = "lblMBallUpgradeName"
+        Me.lblMBallUpgradeName.Size = New System.Drawing.Size(54, 13)
+        Me.lblMBallUpgradeName.TabIndex = 33
+        Me.lblMBallUpgradeName.Text = "Beast Ball"
+        '
+        'lblUBallUpgradeName
+        '
+        Me.lblUBallUpgradeName.AutoSize = True
+        Me.lblUBallUpgradeName.Location = New System.Drawing.Point(541, 93)
+        Me.lblUBallUpgradeName.Name = "lblUBallUpgradeName"
+        Me.lblUBallUpgradeName.Size = New System.Drawing.Size(88, 13)
+        Me.lblUBallUpgradeName.TabIndex = 34
+        Me.lblUBallUpgradeName.Text = "Ancient Ultra Ball"
+        '
+        'lblGBallUpgradePrice
+        '
+        Me.lblGBallUpgradePrice.AutoSize = True
+        Me.lblGBallUpgradePrice.Location = New System.Drawing.Point(381, 9)
+        Me.lblGBallUpgradePrice.Name = "lblGBallUpgradePrice"
+        Me.lblGBallUpgradePrice.Size = New System.Drawing.Size(49, 13)
+        Me.lblGBallUpgradePrice.TabIndex = 35
+        Me.lblGBallUpgradePrice.Text = "Cost:100"
+        '
+        'lblAFarmUpgradePrice
+        '
+        Me.lblAFarmUpgradePrice.AutoSize = True
+        Me.lblAFarmUpgradePrice.Location = New System.Drawing.Point(372, 130)
+        Me.lblAFarmUpgradePrice.Name = "lblAFarmUpgradePrice"
+        Me.lblAFarmUpgradePrice.Size = New System.Drawing.Size(61, 13)
+        Me.lblAFarmUpgradePrice.TabIndex = 36
+        Me.lblAFarmUpgradePrice.Text = "Cost:11000"
+        '
+        'lblMBallUpgradePrice
+        '
+        Me.lblMBallUpgradePrice.AutoSize = True
+        Me.lblMBallUpgradePrice.Location = New System.Drawing.Point(381, 251)
+        Me.lblMBallUpgradePrice.Name = "lblMBallUpgradePrice"
+        Me.lblMBallUpgradePrice.Size = New System.Drawing.Size(70, 13)
+        Me.lblMBallUpgradePrice.TabIndex = 37
+        Me.lblMBallUpgradePrice.Text = "Cost: 120000"
+        '
+        'lblUBallUpgradePrice
+        '
+        Me.lblUBallUpgradePrice.AutoSize = True
+        Me.lblUBallUpgradePrice.Location = New System.Drawing.Point(541, 9)
+        Me.lblUBallUpgradePrice.Name = "lblUBallUpgradePrice"
+        Me.lblUBallUpgradePrice.Size = New System.Drawing.Size(55, 13)
+        Me.lblUBallUpgradePrice.TabIndex = 38
+        Me.lblUBallUpgradePrice.Text = "Cost:1000"
+        '
+        'Timer1
+        '
+        Me.Timer1.Enabled = True
+        Me.Timer1.Interval = 1000
+        '
+        'lblPPS
+        '
+        Me.lblPPS.AutoSize = True
+        Me.lblPPS.Location = New System.Drawing.Point(119, 120)
+        Me.lblPPS.Name = "lblPPS"
+        Me.lblPPS.Size = New System.Drawing.Size(31, 13)
+        Me.lblPPS.TabIndex = 39
+        Me.lblPPS.Text = "PPS:"
+        '
+        'pbPokeballUpgrade
+        '
+        Me.pbPokeballUpgrade.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pbPokeballUpgrade.Image = Global.cookie.My.Resources.Resources.Ancient_Poke_Ball_Glamour
+        Me.pbPokeballUpgrade.Location = New System.Drawing.Point(680, 0)
+        Me.pbPokeballUpgrade.Name = "pbPokeballUpgrade"
+        Me.pbPokeballUpgrade.Size = New System.Drawing.Size(117, 124)
+        Me.pbPokeballUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pbPokeballUpgrade.TabIndex = 40
+        Me.pbPokeballUpgrade.TabStop = False
+        '
         'pbAFarm
         '
         Me.pbAFarm.Image = Global.cookie.My.Resources.Resources._635556544299235574_2991773832_copy
@@ -271,97 +372,32 @@ Partial Class CookieClicker
         Me.Pokeball.TabIndex = 8
         Me.Pokeball.TabStop = False
         '
-        'lblGBallUpgradeName
+        'Label1
         '
-        Me.lblGBallUpgradeName.AutoSize = True
-        Me.lblGBallUpgradeName.Location = New System.Drawing.Point(371, 95)
-        Me.lblGBallUpgradeName.Name = "lblGBallUpgradeName"
-        Me.lblGBallUpgradeName.Size = New System.Drawing.Size(92, 13)
-        Me.lblGBallUpgradeName.TabIndex = 31
-        Me.lblGBallUpgradeName.Text = "Ancient Great Ball"
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(686, 24)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(52, 13)
+        Me.Label1.TabIndex = 41
+        Me.Label1.Text = "Cost: 100"
         '
-        'lblAFarmUpgradeName
+        'Label2
         '
-        Me.lblAFarmUpgradeName.AutoSize = True
-        Me.lblAFarmUpgradeName.Location = New System.Drawing.Point(372, 217)
-        Me.lblAFarmUpgradeName.Name = "lblAFarmUpgradeName"
-        Me.lblAFarmUpgradeName.Size = New System.Drawing.Size(91, 13)
-        Me.lblAFarmUpgradeName.TabIndex = 32
-        Me.lblAFarmUpgradeName.Text = "Auto Apricot Farm"
-        '
-        'lblMBallUpgradeName
-        '
-        Me.lblMBallUpgradeName.AutoSize = True
-        Me.lblMBallUpgradeName.Location = New System.Drawing.Point(381, 358)
-        Me.lblMBallUpgradeName.Name = "lblMBallUpgradeName"
-        Me.lblMBallUpgradeName.Size = New System.Drawing.Size(54, 13)
-        Me.lblMBallUpgradeName.TabIndex = 33
-        Me.lblMBallUpgradeName.Text = "Beast Ball"
-        '
-        'lblUBallUpgradeName
-        '
-        Me.lblUBallUpgradeName.AutoSize = True
-        Me.lblUBallUpgradeName.Location = New System.Drawing.Point(541, 93)
-        Me.lblUBallUpgradeName.Name = "lblUBallUpgradeName"
-        Me.lblUBallUpgradeName.Size = New System.Drawing.Size(88, 13)
-        Me.lblUBallUpgradeName.TabIndex = 34
-        Me.lblUBallUpgradeName.Text = "Ancient Ultra Ball"
-        '
-        'lblGBallUpgradePrice
-        '
-        Me.lblGBallUpgradePrice.AutoSize = True
-        Me.lblGBallUpgradePrice.Location = New System.Drawing.Point(381, 9)
-        Me.lblGBallUpgradePrice.Name = "lblGBallUpgradePrice"
-        Me.lblGBallUpgradePrice.Size = New System.Drawing.Size(49, 13)
-        Me.lblGBallUpgradePrice.TabIndex = 35
-        Me.lblGBallUpgradePrice.Text = "Cost:100"
-        '
-        'lblAFarmUpgradePrice
-        '
-        Me.lblAFarmUpgradePrice.AutoSize = True
-        Me.lblAFarmUpgradePrice.Location = New System.Drawing.Point(372, 130)
-        Me.lblAFarmUpgradePrice.Name = "lblAFarmUpgradePrice"
-        Me.lblAFarmUpgradePrice.Size = New System.Drawing.Size(61, 13)
-        Me.lblAFarmUpgradePrice.TabIndex = 36
-        Me.lblAFarmUpgradePrice.Text = "Cost:11000"
-        '
-        'lblMBallUpgradePrice
-        '
-        Me.lblMBallUpgradePrice.AutoSize = True
-        Me.lblMBallUpgradePrice.Location = New System.Drawing.Point(381, 251)
-        Me.lblMBallUpgradePrice.Name = "lblMBallUpgradePrice"
-        Me.lblMBallUpgradePrice.Size = New System.Drawing.Size(70, 13)
-        Me.lblMBallUpgradePrice.TabIndex = 37
-        Me.lblMBallUpgradePrice.Text = "Cost: 120000"
-        '
-        'lblUBallUpgradePrice
-        '
-        Me.lblUBallUpgradePrice.AutoSize = True
-        Me.lblUBallUpgradePrice.Location = New System.Drawing.Point(541, 9)
-        Me.lblUBallUpgradePrice.Name = "lblUBallUpgradePrice"
-        Me.lblUBallUpgradePrice.Size = New System.Drawing.Size(55, 13)
-        Me.lblUBallUpgradePrice.TabIndex = 38
-        Me.lblUBallUpgradePrice.Text = "Cost:1000"
-        '
-        'Timer1
-        '
-        Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1000
-        '
-        'lblPPS
-        '
-        Me.lblPPS.AutoSize = True
-        Me.lblPPS.Location = New System.Drawing.Point(119, 120)
-        Me.lblPPS.Name = "lblPPS"
-        Me.lblPPS.Size = New System.Drawing.Size(31, 13)
-        Me.lblPPS.TabIndex = 39
-        Me.lblPPS.Text = "PPS:"
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(677, 93)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(91, 13)
+        Me.Label2.TabIndex = 42
+        Me.Label2.Text = "Ancient Poke Ball"
         '
         'CookieClicker
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.pbPokeballUpgrade)
         Me.Controls.Add(Me.lblPPS)
         Me.Controls.Add(Me.lblUBallUpgradePrice)
         Me.Controls.Add(Me.lblMBallUpgradePrice)
@@ -395,6 +431,7 @@ Partial Class CookieClicker
         Me.Controls.Add(Me.lblPokeBalls)
         Me.Name = "CookieClicker"
         Me.Text = "label2"
+        CType(Me.pbPokeballUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbAFarm, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbGBallUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.pbUBallUpgrade, System.ComponentModel.ISupportInitialize).EndInit()
@@ -440,4 +477,7 @@ Partial Class CookieClicker
     Friend WithEvents lblUBallUpgradePrice As Label
     Friend WithEvents Timer1 As Timer
     Friend WithEvents lblPPS As Label
+    Friend WithEvents pbPokeballUpgrade As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
 End Class
