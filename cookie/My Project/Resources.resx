@@ -151,13 +151,19 @@
   <data name="pokemon-pokeball-toy-7cm-3996445687" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pokemon-pokeball-toy-7cm-3996445687.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ancient_Poke_Ball_Glamour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ancient_Poke_Ball_Glamour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokeClicker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokeClicker.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="_120px_Ancient_Great_Ball_Glamour" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\120px-Ancient_Great_Ball_Glamour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="635556544299235574-2991773832 copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\635556544299235574-2991773832 copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Ancient_Poke_Ball_Glamour" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ancient_Poke_Ball_Glamour.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="th-2510880536" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\th-2510880536.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

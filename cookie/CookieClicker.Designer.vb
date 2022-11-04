@@ -75,9 +75,9 @@ Partial Class CookieClicker
         Me.lblPokeBalls.AutoSize = True
         Me.lblPokeBalls.Location = New System.Drawing.Point(119, 77)
         Me.lblPokeBalls.Name = "lblPokeBalls"
-        Me.lblPokeBalls.Size = New System.Drawing.Size(57, 13)
+        Me.lblPokeBalls.Size = New System.Drawing.Size(66, 13)
         Me.lblPokeBalls.TabIndex = 3
-        Me.lblPokeBalls.Text = "PokèBalls:"
+        Me.lblPokeBalls.Text = "PokèBalls: 0"
         '
         'lblGBallName
         '
@@ -266,15 +266,15 @@ Partial Class CookieClicker
         Me.lblPPS.AutoSize = True
         Me.lblPPS.Location = New System.Drawing.Point(119, 120)
         Me.lblPPS.Name = "lblPPS"
-        Me.lblPPS.Size = New System.Drawing.Size(31, 13)
+        Me.lblPPS.Size = New System.Drawing.Size(49, 13)
         Me.lblPPS.TabIndex = 39
-        Me.lblPPS.Text = "PPS:"
+        Me.lblPPS.Text = "PPS: 0.0"
         '
         'pbPokeballUpgrade
         '
         Me.pbPokeballUpgrade.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.pbPokeballUpgrade.Image = Global.cookie.My.Resources.Resources.Ancient_Poke_Ball_Glamour
-        Me.pbPokeballUpgrade.Location = New System.Drawing.Point(680, 0)
+        Me.pbPokeballUpgrade.Location = New System.Drawing.Point(679, 0)
         Me.pbPokeballUpgrade.Name = "pbPokeballUpgrade"
         Me.pbPokeballUpgrade.Size = New System.Drawing.Size(117, 124)
         Me.pbPokeballUpgrade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -366,7 +366,7 @@ Partial Class CookieClicker
         '
         Me.Pokeball.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Pokeball.Image = Global.cookie.My.Resources.Resources.purepng1
-        Me.Pokeball.Location = New System.Drawing.Point(63, 157)
+        Me.Pokeball.Location = New System.Drawing.Point(65, 157)
         Me.Pokeball.Name = "Pokeball"
         Me.Pokeball.Size = New System.Drawing.Size(215, 204)
         Me.Pokeball.TabIndex = 8

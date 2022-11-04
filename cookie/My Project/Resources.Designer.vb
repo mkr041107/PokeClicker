@@ -173,6 +173,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property PokeClicker() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("PokeClicker", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property pokemon_pokeball_toy_7cm_3996445687() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("pokemon-pokeball-toy-7cm-3996445687", resourceCulture)
@@ -197,6 +207,16 @@ Namespace My.Resources
         Friend ReadOnly Property purepng1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("purepng1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property th_2510880536() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("th-2510880536", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

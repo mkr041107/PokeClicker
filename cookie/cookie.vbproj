@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>pokemon-pokeball-toy-7cm-3996445687.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -179,6 +182,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Ancient_Poke_Ball_Glamour.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="pokemon-pokeball-toy-7cm-3996445687.ico" />
+    <None Include="Resources\th-2510880536.png" />
+    <None Include="Resources\PokeClicker.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
